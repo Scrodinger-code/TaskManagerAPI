@@ -8,10 +8,11 @@ public class Task {
 
     public Task() {}
 
-    public Task(Long id, String title, String description) {
+    public Task(Long id, String title, String description, String status) {
         this.id = id;
         this.title = title;
         this.description = description;
+        this.status = status;
     }
 
     public Long getId() { return id; }
